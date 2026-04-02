@@ -37,7 +37,7 @@ This file is focused on understanding data types and conversions.
 
 ---
 
-### 📄 `Operators and conditionals.py`
+### 📄 `Operators and conditional statements.py`
 
 This file covers Python operators and decision-making concepts with practical examples.
 
