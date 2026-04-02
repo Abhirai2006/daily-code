@@ -12,14 +12,14 @@ This repository contains my daily Python practice as I learn and improve step by
 
 In this file, I focused on the fundamentals of Python.
 
-* Learned what Python is and why it is widely used
-* Practiced using `print()` to display output
-* Understood the difference between strings and numbers
-* Performed basic operations like addition and subtraction
-* Explored how to print multiple values together
-* Learned how to control output formatting using `end`
-* Started using variables to store and display data
-* Understood the rules for naming variables properly
+- Learned what Python is and why it is widely used  
+- Practiced using `print()` to display output  
+- Understood the difference between strings and numbers  
+- Performed basic operations like addition and subtraction  
+- Explored how to print multiple values together  
+- Learned how to control output formatting using `end`  
+- Started using variables to store and display data  
+- Understood the rules for naming variables properly  
 
 ---
 
@@ -27,13 +27,37 @@ In this file, I focused on the fundamentals of Python.
 
 This file is focused on understanding data types and conversions.
 
-* Learned different data types in Python like `int`, `float`, `str`, `bool`, and `complex`
-* Used `type()` to check the datatype of values
-* Practiced type casting (converting one datatype to another)
-* Understood valid and invalid conversions (like string to int)
-* Explored boolean conversions (True/False with numbers)
-* Worked with complex numbers and accessed real & imaginary parts
-* Took user input and converted it into required datatypes
+- Learned different data types in Python like `int`, `float`, `str`, `bool`, and `complex`  
+- Used `type()` to check the datatype of values  
+- Practiced type casting (converting one datatype to another)  
+- Understood valid and invalid conversions (like string to int)  
+- Explored boolean conversions (True/False with numbers)  
+- Worked with complex numbers and accessed real & imaginary parts  
+- Took user input and converted it into required datatypes  
+
+---
+
+### 📄 `Operators and conditionals.py`
+
+This file covers Python operators and decision-making concepts with practical examples.
+
+- Performed arithmetic operations using `+`, `-`, `*`, `/`, `%`, `**`, `//`  
+- Compared values using `>`, `<`, `==`, `!=`, `>=`, `<=`  
+- Used logical operators like `and`, `or`, `not`  
+- Updated variables using assignment operators like `+=`, `-=`, `*=`, `/=`  
+- Checked values in sequences using `in` and `not in`  
+- Understood identity operators (`is`, `is not`) and difference from `==`  
+- Implemented conditional statements (`if`, `if-else`, `if-elif-else`)  
+- Practiced nested conditions  
+
+**Examples included:**
+
+- Positive / negative number check  
+- Even / odd number check  
+- Number range validation  
+- Grade classification system  
+- Voting eligibility logic  
+- Simple login system  
 
 ---
 
@@ -41,4 +65,4 @@ This file is focused on understanding data types and conversions.
 
 I’m building this repository to stay consistent and improve my coding skills every day.
 
-Consistency > Perfection 💯
+**Consistency > Perfection 💯** 🚀
