@@ -17,7 +17,7 @@ print(10 + 20 + 30 + 40 + 50)
 print(10)
 
 # This will give an error because text must be written inside quotes
-# print(Apple is a fruit)
+# print(Apple is a fruit).
 
 print("Apple")
 print("Banana")
