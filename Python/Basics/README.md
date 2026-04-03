@@ -61,6 +61,32 @@ This file covers Python operators and decision-making concepts with practical ex
 
 ---
 
+### 📄 loops_&_iteration.py
+
+This file introduces loops in Python and explains how repetition works in programming.
+
+**Topics covered:**
+
+- Difference between `=` (assignment) and `==` (comparison)  
+- Concept of loops and iterations  
+- While loop and how it works  
+- Importance of updating variables in loops  
+- Infinite loop and common mistakes  
+- For loop and `range()` function  
+- Difference between while loop and for loop  
+- Using step values in loops  
+
+**Examples included:**
+
+- Printing numbers using while loop  
+- Printing numbers using for loop  
+- Even numbers from 1 to 20  
+- Reverse counting (10 to 1)  
+- Repeating a statement multiple times  
+
+---
+
+
 ## 💡 Final Note
 
 I’m building this repository to stay consistent and improve my coding skills every day.
