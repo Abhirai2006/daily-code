@@ -1,69 +1,133 @@
-# Python is a high-level, interpreted programming language.
+# =========================================
+# Python Basics: Introduction & Variables
+# =========================================
+
+
+# -------------------------------
+# 1. Introduction to Python
+# -------------------------------
+# Python is a high-level interpreted programming language.
 
 # Why Python?
-# 1. Easy to understand, learn, and write.
-# 2. Used in many areas like data science, AI, ML, web development, and automation.
-# 3. Has many useful libraries such as pandas, numpy, matplotlib, and scikit-learn.
-# 4. Open-source and beginner-friendly.
+# - Easy to learn and understand
+# - Used in AI, ML, web development, and automation
+# - Has many powerful libraries
+# - Beginner-friendly and open-source
 
-# Printing text
-print("Hello World")  # Prints the exact text inside quotes
+print("\n===== Introduction to Python =====")
 
-# Printing strings and numbers
-print("10-20")        # Prints as text
-print(10 - 20)        # Performs subtraction and prints the result
+print("Hello World")   # Prints text inside quotes
 
-print(10 + 20 + 30 + 40 + 50)
-print(10)
 
-# This will give an error because text must be written inside quotes
-# print(Apple is a fruit).
+# -------------------------------
+# 2. Strings vs Numbers
+# -------------------------------
+# Strings are written inside quotes
+# Numbers are used for calculations
+
+print("\n===== Strings vs Numbers =====")
+
+print("10-20")      # Printed as text
+print(10 - 20)      # Performs subtraction
+
+print("Addition Result:", 10 + 20 + 30 + 40 + 50)
+
+print("Single Number:", 10)
+
+
+# -------------------------------
+# 3. Printing Different Values
+# -------------------------------
+
+print("\n===== Printing Different Values =====")
 
 print("Apple")
 print("Banana")
-print(30)
-print(20 + 100)
 
-# String concatenation
-print("10" + "20")    # Joins the strings, result: 1020
+print("Number:", 30)
 
-# Printing multiple values
+print("20 + 100 =", 20 + 100)
+
+
+# -------------------------------
+# 4. String Concatenation
+# -------------------------------
+# Joining two strings together
+
+print("\n===== String Concatenation =====")
+
+print("10" + "20")   # Result: 1020
+
+
+# -------------------------------
+# 5. Printing Multiple Values
+# -------------------------------
+
+print("\n===== Printing Multiple Values =====")
+
 print(10, 20, 30, 40, "apple", "banana")
 
-# Printing email as text
-print("abc@gmail.com")
 
-# Printing labels with values
+# -------------------------------
+# 6. Printing Labels with Values
+# -------------------------------
+
+print("\n===== User Information =====")
+
 print("Name:", "Abc")
 print("Age:", 45)
 print("Email:", "abc@gmail.com")
 print("Gender:", "M")
 
-# print() adds a new line by default
+
+# -------------------------------
+# 7. print() and end=""
+# -------------------------------
+# print() moves to a new line by default
+# end="" keeps output on same line
+
+print("\n===== Using end Parameter =====")
+
 print(10)
 print(20)
 
-# end=" " keeps the output on the same line
 print(10, end=" ")
 print(20)
 
 
-# ----------------------------------------
+# =========================================
 # Variables
-# ----------------------------------------
+# =========================================
 
-# A variable is a container used to store data.
-# Example: name = "Rahul"
-# name -> variable name
-# =    -> assignment operator
-# "Rahul" -> value
+# -------------------------------
+# 8. Introduction to Variables
+# -------------------------------
+# Variables are containers used to store data
+
+print("\n===== Variables =====")
 
 name = "Vishal"
-print(name)
+
+print("Stored Name:", name)
+
+
+# -------------------------------
+# 9. Using Variables in Calculations
+# -------------------------------
+
+print("\n===== Variables in Calculations =====")
 
 a = 20
 b = 30
-print(a + b)
+
+print("Sum =", a + b)
+
+
+# -------------------------------
+# 10. Storing Multiple Details
+# -------------------------------
+
+print("\n===== Student Details =====")
 
 Name = "Daksh"
 Age = 24
@@ -77,35 +141,53 @@ print("Year of Graduation:", YOG)
 print("Email:", Email)
 print("Gender:", Gender)
 
-# ----------------------------------------
-# Rules for creating variable names
-# ----------------------------------------
-# 1. A variable can start with a letter or underscore (_).
-# 2. A variable cannot start with a number.
-# 3. Special characters like $, @, #, % are not allowed.
-# 4. Spaces are not allowed in variable names.
-# 5. Variable names are case-sensitive.
-#    Example: name and Name are different.
-# 6. Keywords cannot be used as variable names.
-#    Example: for, while, if, else, not, etc.
 
-# Valid examples:
+# -------------------------------
+# 11. Rules for Variable Names
+# -------------------------------
+# 1. Can start with a letter or underscore
+# 2. Cannot start with a number
+# 3. Special characters are not allowed
+# 4. Spaces are not allowed
+# 5. Variable names are case-sensitive
+# 6. Keywords cannot be used
+
+print("\n===== Variable Naming Rules =====")
+
+# Valid Examples:
 # age = 12
 # _salary = 120000
 # marks2 = 100
 # Roll_No = 12
 
-# Invalid examples:
+# Invalid Examples:
 # 2marks = 90
 # total marks = 70
 # price$ = 30
 # for = 10
 
-# Case sensitivity example
+print("Check comments for valid and invalid examples.")
+
+
+# -------------------------------
+# 12. Case Sensitivity
+# -------------------------------
+# name and Name are treated differently
+
+print("\n===== Case Sensitivity =====")
+
 name = "Aadi"
 Name = "Tanya"
-print(name, Name)
 
-# If we want to print on the same line without space
+print("name =", name)
+print("Name =", Name)
+
+
+# -------------------------------
+# 13. Printing Without Space
+# -------------------------------
+
+print("\n===== Printing Without Space =====")
+
 print("Hello", end="")
 print("World")
