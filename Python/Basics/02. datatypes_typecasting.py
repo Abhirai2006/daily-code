@@ -1,127 +1,287 @@
-# Data Types & Type Casting in Python
+# =========================================
+# Python Basics: Data Types & Type Casting
+# =========================================
 
-# ----------------------------------------
-# Data Types in Python
-# ----------------------------------------
 
-# Integer: whole numbers (positive or negative)
-a = 10
-b = -5
-print(a, type(a))
-print(b, type(b))
+# -------------------------------
+# 1. Integer Data Type
+# -------------------------------
+# Integers are whole numbers
 
-# Float: decimal numbers
-a = 12.5
-b = -12.5
-x = 0.0
-z = -20.
-print(type(a), type(b), type(x), type(z))
+print("\n===== Integer Data Type =====")
 
-# String: sequence of characters (text)
-abc = "Adarsh"
-xyz = 'Tanya'
-print(abc, xyz)
-print(type(abc), type(xyz))
+positive_num = 10
+negative_num = -5
 
-# Note:
-# Every data type in Python is internally treated as a class
-# Example output: <class 'int'>
+print(f"Value: {positive_num}, Type: {type(positive_num)}")
+print(f"Value: {negative_num}, Type: {type(negative_num)}")
 
-# Boolean: True or False
-var1 = True
-var2 = False
-print(var1, type(var1))
-print(var2, type(var2))
 
-# String "True" is NOT boolean
-w = "True"
-print(type(w))
+# -------------------------------
+# 2. Float Data Type
+# -------------------------------
+# Floats are decimal numbers
 
-# Complex Numbers: real + imaginary (j is used)
-x = 2 + 5j
-z = 3 + 4j
-print(x, type(x))
+print("\n===== Float Data Type =====")
 
-# Access real and imaginary parts
-print(z.real)
-print(z.imag)
+float_num1 = 12.5
+float_num2 = -12.5
+float_num3 = 0.0
+float_num4 = -20.0
 
-# ----------------------------------------
-# Type Casting (Type Conversion)
-# ----------------------------------------
+print(f"{float_num1} → {type(float_num1)}")
+print(f"{float_num2} → {type(float_num2)}")
+print(f"{float_num3} → {type(float_num3)}")
+print(f"{float_num4} → {type(float_num4)}")
 
-# int → float
-a = 50
-a = float(a)
-print(a, type(a))
 
-# float → int (decimal part removed)
-a = 12.89
-a = int(a)
-print(a, type(a))
+# -------------------------------
+# 3. String Data Type
+# -------------------------------
+# Strings store text data
 
-# int → string
-num = 12
-t = str(num)
-print(t, type(t))
+print("\n===== String Data Type =====")
 
-# string → float
-a = "10.6"
-a = float(a)
-print(a, type(a))
+first_name = "Adarsh"
+second_name = 'Tanya'
 
-# string → int (must contain integer value)
-a = "10"
-a = int(a)
-print(a, type(a))
+print(f"First Name: {first_name}")
+print(f"Second Name: {second_name}")
 
-# Invalid conversion example
-# a = "tanya"
-# a = int(a)  # This will cause ValueError
+print(f"Type of first_name: {type(first_name)}")
+print(f"Type of second_name: {type(second_name)}")
 
-# ----------------------------------------
+
+# -------------------------------
+# 4. Boolean Data Type
+# -------------------------------
+# Boolean values are True or False
+
+print("\n===== Boolean Data Type =====")
+
+is_logged_in = True
+is_admin = False
+
+print(f"{is_logged_in} → {type(is_logged_in)}")
+print(f"{is_admin} → {type(is_admin)}")
+
+# String "True" is not boolean
+text_value = "True"
+
+print(f"{text_value} → {type(text_value)}")
+
+
+# -------------------------------
+# 5. Complex Data Type
+# -------------------------------
+# Complex numbers use 'j'
+
+print("\n===== Complex Data Type =====")
+
+complex_num1 = 2 + 5j
+complex_num2 = 3 + 4j
+
+print(f"{complex_num1} → {type(complex_num1)}")
+
+# Accessing real and imaginary parts
+print(f"Real Part: {complex_num2.real}")
+print(f"Imaginary Part: {complex_num2.imag}")
+
+
+# =========================================
+# Type Casting
+# =========================================
+
+# -------------------------------
+# 6. Integer to Float
+# -------------------------------
+
+print("\n===== Integer to Float =====")
+
+num = 50
+
+converted_num = float(num)
+
+print(f"Before: {num} → {type(num)}")
+print(f"After : {converted_num} → {type(converted_num)}")
+
+
+# -------------------------------
+# 7. Float to Integer
+# -------------------------------
+# Decimal part gets removed
+
+print("\n===== Float to Integer =====")
+
+decimal_num = 12.89
+
+converted_num = int(decimal_num)
+
+print(f"Before: {decimal_num} → {type(decimal_num)}")
+print(f"After : {converted_num} → {type(converted_num)}")
+
+
+# -------------------------------
+# 8. Integer to String
+# -------------------------------
+
+print("\n===== Integer to String =====")
+
+number = 12
+
+string_number = str(number)
+
+print(f"Before: {number} → {type(number)}")
+print(f"After : {string_number} → {type(string_number)}")
+
+
+# -------------------------------
+# 9. String to Float
+# -------------------------------
+
+print("\n===== String to Float =====")
+
+value = "10.6"
+
+converted_value = float(value)
+
+print(f"Before: {value} → {type(value)}")
+print(f"After : {converted_value} → {type(converted_value)}")
+
+
+# -------------------------------
+# 10. String to Integer
+# -------------------------------
+
+print("\n===== String to Integer =====")
+
+value = "10"
+
+converted_value = int(value)
+
+print(f"Before: {value} → {type(value)}")
+print(f"After : {converted_value} → {type(converted_value)}")
+
+
+# Invalid Conversion Example
+# value = "Python"
+# int(value)   ❌ ValueError
+
+
+# =========================================
 # Boolean Conversions
-# ----------------------------------------
+# =========================================
 
-# bool → int
-# True = 1, False = 0
-a = True
-print(a, type(a))
-a = int(a)
-print(a, type(a))
+# -------------------------------
+# 11. Boolean to Integer
+# -------------------------------
+# True = 1
+# False = 0
 
-# int → bool
-# 0 → False, any non-zero → True
-a = 100
-a = bool(a)
-print(a, type(a))
+print("\n===== Boolean to Integer =====")
 
-b = False
-b = int(b)
-print(b, type(b))
+value = True
 
-# bool → string
-x = True
-x = str(x)
-print(x, type(x))
+converted_value = int(value)
 
-# bool → float
-a = True
-a = float(a)
-print(a, type(a))
+print(f"Before: {value} → {type(value)}")
+print(f"After : {converted_value} → {type(converted_value)}")
 
-# ----------------------------------------
+
+# -------------------------------
+# 12. Integer to Boolean
+# -------------------------------
+# 0 → False
+# Non-zero → True
+
+print("\n===== Integer to Boolean =====")
+
+value = 100
+
+converted_value = bool(value)
+
+print(f"Before: {value} → {type(value)}")
+print(f"After : {converted_value} → {type(converted_value)}")
+
+
+# -------------------------------
+# 13. False to Integer
+# -------------------------------
+
+print("\n===== False to Integer =====")
+
+value = False
+
+converted_value = int(value)
+
+print(f"Before: {value} → {type(value)}")
+print(f"After : {converted_value} → {type(converted_value)}")
+
+
+# -------------------------------
+# 14. Boolean to String
+# -------------------------------
+
+print("\n===== Boolean to String =====")
+
+value = True
+
+converted_value = str(value)
+
+print(f"Before: {value} → {type(value)}")
+print(f"After : {converted_value} → {type(converted_value)}")
+
+
+# -------------------------------
+# 15. Boolean to Float
+# -------------------------------
+
+print("\n===== Boolean to Float =====")
+
+value = True
+
+converted_value = float(value)
+
+print(f"Before: {value} → {type(value)}")
+print(f"After : {converted_value} → {type(converted_value)}")
+
+
+# =========================================
 # User Input
-# ----------------------------------------
+# =========================================
 
-# By default, input() takes string
-x = input("Enter value: ")
-print(x, type(x))
+# -------------------------------
+# 16. Taking String Input
+# -------------------------------
+# input() stores values as string by default
 
-# Convert input to integer
-x = int(input("Enter integer value: "))
-print(x, type(x))
+print("\n===== String Input =====")
 
-# Convert input to float
-z = float(input("Enter float value: "))
-print(z, type(z))
+user_input = input("Enter any value: ")
+
+print(f"You entered: {user_input}")
+print(f"Data Type: {type(user_input)}")
+
+
+# -------------------------------
+# 17. Integer Input
+# -------------------------------
+
+print("\n===== Integer Input =====")
+
+integer_value = int(input("Enter an integer value: "))
+
+print(f"You entered: {integer_value}")
+print(f"Data Type: {type(integer_value)}")
+
+
+# -------------------------------
+# 18. Float Input
+# -------------------------------
+
+print("\n===== Float Input =====")
+
+float_value = float(input("Enter a float value: "))
+
+print(f"You entered: {float_value}")
+print(f"Data Type: {type(float_value)}")

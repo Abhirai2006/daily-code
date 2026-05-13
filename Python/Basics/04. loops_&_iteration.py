@@ -4,17 +4,20 @@
 
 
 # -------------------------------
-# 1. Difference between == and =
+# 1. Difference Between = and ==
 # -------------------------------
 # =  → assignment operator
 # == → comparison operator
 
-print("1)\n")
+print("\n===== Assignment vs Comparison Operator =====")
 
 a = 12
 b = 16
 
-print("a == b:", a == b)
+print(f"a = {a}")
+print(f"b = {b}")
+
+print(f"a == b → {a == b}")
 
 
 # -------------------------------
@@ -23,11 +26,11 @@ print("a == b:", a == b)
 # Loop → repeats a block of code
 # Iteration → one cycle of a loop
 
-print("\n2)\n")
+print("\n===== Introduction to Loops =====")
 
-# Types of loops in Python:
-# 1. while loop
-# 2. for loop
+print("Python mainly has two loops:")
+print("1. while loop")
+print("2. for loop")
 
 
 # -------------------------------
@@ -35,12 +38,12 @@ print("\n2)\n")
 # -------------------------------
 # Runs as long as condition is True
 
-print("\n3)\n")
+print("\n===== While Loop =====")
 
 i = 1
 
 while i <= 5:
-    print(i)
+    print(f"Current Value: {i}")
     i += 1
 
 
@@ -48,28 +51,30 @@ while i <= 5:
 # 4. While Loop Variation
 # -------------------------------
 
-print("\n4)\n")
+print("\n===== While Loop Variation =====")
 
 i = 1
 
 while i <= 5:
     i += 1
-    print(i)
+    print(f"Updated Value: {i}")
 
 
 # -------------------------------
-# 5. Infinite Loop (Common Mistake)
+# 5. Infinite Loop
 # -------------------------------
 # Forgetting to update variable
+# can create an infinite loop
 
-print("\n5)\n")
+print("\n===== Infinite Loop Example =====")
 
 # Example (DO NOT RUN)
+
 # i = 1
 # while i <= 5:
 #     print(i)
 
-# → Infinite loop because i never changes
+print("Infinite loop occurs when loop variable never changes.")
 
 
 # -------------------------------
@@ -77,41 +82,41 @@ print("\n5)\n")
 # -------------------------------
 # Used when iteration count is known
 
-print("\n6)\n")
+print("\n===== For Loop =====")
 
-# range(n) → starts from 0
+print("Using range(5):")
+
 for i in range(5):
-    print(i)
+    print(f"Value of i: {i}")
 
-print()
+print("\nUsing range(1, 6):")
 
-# range(start, stop)
 for i in range(1, 6):
-    print(i)
+    print(f"Value of i: {i}")
 
 
 # -------------------------------
-# 7. While vs For Loop
+# 7. While Loop vs For Loop
 # -------------------------------
 
-print("\n7)\n")
+print("\n===== While Loop vs For Loop =====")
 
-# While Loop:
-# - Condition based
-# - Manual update needed
-# - Can become infinite
+print("While Loop:")
+print("- Condition based")
+print("- Manual update required")
+print("- Can become infinite")
 
-# For Loop:
-# - Fixed iteration count
-# - Automatic iteration
-# - Cleaner for counting loops
+print("\nFor Loop:")
+print("- Fixed iteration count")
+print("- Automatic iteration")
+print("- Cleaner for counting")
 
 
 # -------------------------------
-# 8. Even Numbers (1 to 20)
+# 8. Even Numbers from 1 to 20
 # -------------------------------
 
-print("\n8)\n")
+print("\n===== Even Numbers from 1 to 20 =====")
 
 for i in range(2, 21, 2):
     print(i)
@@ -123,7 +128,7 @@ for i in range(2, 21, 2):
 # 9. Reverse Loop
 # -------------------------------
 
-print("\n9)\n")
+print("\n===== Reverse Counting =====")
 
 for i in range(10, 0, -1):
     print(i)
@@ -133,63 +138,64 @@ for i in range(10, 0, -1):
 # 10. Repeating a Task
 # -------------------------------
 
-print("\n10)\n")
+print("\n===== Repeating a Task =====")
 
 for i in range(3):
     print("Python")
 
 
 # -------------------------------
-# 11. Loop Control Statements
+# 11. break Statement
 # -------------------------------
-# break and continue
+# break immediately stops the loop
 
-print("\n11)\n")
-
-# break → immediately stops the loop
+print("\n===== break Statement =====")
 
 print("Break in for loop:")
 
 for i in range(1, 10):
+
     if i == 5:
         break
+
     print(i)
 
-print()
+print("\nBreak in while loop:")
 
-# break in while loop
 num = 1
 
 while num <= 10:
+
     if num == 6:
         break
 
     print(num)
+
     num += 1
 
 
 # -------------------------------
-# 12. Continue Statement
+# 12. continue Statement
 # -------------------------------
-# continue → skips current iteration
+# continue skips current iteration
 
-print("\n12)\n")
+print("\n===== continue Statement =====")
 
 print("Continue in for loop:")
 
 for i in range(1, 6):
+
     if i == 3:
         continue
 
     print(i)
 
-print()
-
-print("Continue in while loop:")
+print("\nContinue in while loop:")
 
 num = 0
 
 while num < 5:
+
     num += 1
 
     if num == 3:

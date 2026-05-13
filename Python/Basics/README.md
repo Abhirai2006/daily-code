@@ -4,74 +4,106 @@
 
 This repository contains my daily Python practice as I learn and improve step by step.
 
+I’m using this repository to document my Python learning journey and improve through consistent daily practice.
+
+**Consistency beats perfection 🚀**
+
+---
+
+## 📁 Repository Structure
+
+```text
+daily-code/
+│
+├── 01_python_basics.py
+├── 02_datatypes_typecasting.py
+├── 03_operators_conditionals.py
+├── 04_loops_iteration.py
+└── 05_lists_tuples.py
+```
+
 ---
 
 ## 📂 Files & What They Cover
 
-### 📄 `Basics.py`
+### 📄 `01_python_basics.py`
 
-In this file, I focused on the fundamentals of Python.
+Concepts covered:
 
-- Learned what Python is and why it is widely used  
-- Practiced using `print()` to display output  
-- Understood the difference between strings and numbers  
-- Performed basic operations like addition and subtraction  
-- Explored how to print multiple values together  
-- Learned how to control output formatting using `end`  
-- Started using variables to store and display data  
-- Understood the rules for naming variables properly  
-
----
-
-### 📄 `Data Types & Type Casting.py`
-
-This file is focused on understanding data types and conversions.
-
-- Learned different data types in Python like `int`, `float`, `str`, `bool`, and `complex`  
-- Used `type()` to check the datatype of values  
-- Practiced type casting (converting one datatype to another)  
-- Understood valid and invalid conversions (like string to int)  
-- Explored boolean conversions (True/False with numbers)  
-- Worked with complex numbers and accessed real & imaginary parts  
-- Took user input and converted it into required datatypes  
-
----
-
-### 📄 `Operators and conditional statements.py`
-
-This file covers Python operators and decision-making concepts with practical examples.
-
-- Performed arithmetic operations using `+`, `-`, `*`, `/`, `%`, `**`, `//`  
-- Compared values using `>`, `<`, `==`, `!=`, `>=`, `<=`  
-- Used logical operators like `and`, `or`, `not`  
-- Updated variables using assignment operators like `+=`, `-=`, `*=`, `/=`  
-- Checked values in sequences using `in` and `not in`  
-- Understood identity operators (`is`, `is not`) and difference from `==`  
-- Implemented conditional statements (`if`, `if-else`, `if-elif-else`)  
-- Practiced nested conditions  
+- Introduction to Python
+- Printing output using `print()`
+- Difference between strings and numbers
+- Basic arithmetic operations
+- Printing multiple values together
+- Using `end=""` in `print()`
+- Variables and storing data
+- Rules for naming variables
 
 **Examples included:**
 
-- Positive / negative number check  
-- Even / odd number check  
-- Number range validation  
-- Grade classification system  
-- Voting eligibility logic  
-- Simple login system  
+- Printing text and numbers
+- String concatenation
+- Printing user information
+- Using variables in calculations
+- Case sensitivity in variable names
 
 ---
 
-### 📄 loops_and_iteration.py
+### 📄 `02_datatypes_typecasting.py`
 
-This file introduces loops in Python and explains how repetition works in programming.
+Concepts covered:
 
-**Topics covered:**
+- Integer (`int`)
+- Float (`float`)
+- String (`str`)
+- Boolean (`bool`)
+- Complex numbers (`complex`)
+- Using `type()` function
+- Type casting / type conversion
+
+**Examples included:**
+
+- Converting between datatypes
+- Boolean conversions
+- Accessing real and imaginary parts
+- Valid and invalid conversions
+- Taking user input with datatype conversion
+
+---
+
+### 📄 `03_operators_conditionals.py`
+
+Concepts covered:
+
+- Arithmetic operators
+- Comparison operators
+- Logical operators
+- Assignment operators
+- Membership operators
+- Identity operators
+- Conditional statements
+- Nested `if` statements
+
+**Examples included:**
+
+- Positive / negative number check
+- Even / odd number check
+- Number range validation
+- Grade classification system
+- Voting eligibility logic
+- Simple login system
+
+---
+
+### 📄 `04_loops_iteration.py`
+
+Concepts covered:
 
 - Difference between `=` and `==`
-- Concept of loops and iterations
+- Introduction to loops
 - While loop
 - For loop
-- Infinite loops and common mistakes
+- Infinite loops
 - `range()` function
 - Difference between while loop and for loop
 - Loop control statements:
@@ -89,17 +121,14 @@ This file introduces loops in Python and explains how repetition works in progra
 
 ---
 
-### 📄 lists_and_tuples.py
+### 📄 `05_lists_tuples.py`
 
-This file introduces sequential data types in Python, mainly lists and tuples.
-
-**Topics covered:**
+Concepts covered:
 
 - Mutable vs immutable datatypes
 - Sequential datatypes
 - Lists and their properties
 - Indexing and negative indexing
-- Mutable nature of lists
 - List slicing
 - List methods:
   - `append()`
@@ -119,13 +148,14 @@ This file introduces sequential data types in Python, mainly lists and tuples.
 - Reversing lists using slicing
 - Adding and removing elements
 - Working with tuples and indexing
-- Converting between lists and tuplesting a statement multiple times  
+- Converting between lists and tuples
 
 ---
 
+## ⭐ Final Note
 
-## 💡 Final Note
+This repository reflects my progress as a beginner learning Python step by step.
 
-I’m building this repository to stay consistent and improve my coding skills every day.
+Every file represents consistent practice and gradual improvement.
 
-**Consistency > Perfection 💯** 🚀
+Thanks for visiting my repository! 🚀
