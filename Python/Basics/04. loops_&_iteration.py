@@ -6,21 +6,21 @@
 # -------------------------------
 # 1. Difference between == and =
 # -------------------------------
-# =  → assignment operator (stores value)
-# == → comparison operator (checks equality)
+# =  → assignment operator
+# == → comparison operator
 
 print("1)\n")
 
 a = 12
 b = 16
 
-print("a == b:", a == b)  # Checks if values are equal
+print("a == b:", a == b)
 
 
 # -------------------------------
 # 2. Introduction to Loops
 # -------------------------------
-# Loop → repeats a block of code multiple times
+# Loop → repeats a block of code
 # Iteration → one cycle of a loop
 
 print("\n2)\n")
@@ -33,14 +33,15 @@ print("\n2)\n")
 # -------------------------------
 # 3. While Loop
 # -------------------------------
-# Runs as long as the condition is True
+# Runs as long as condition is True
 
 print("\n3)\n")
 
 i = 1
+
 while i <= 5:
     print(i)
-    i = i + 1  # Important: update variable to avoid infinite loop
+    i += 1
 
 
 # -------------------------------
@@ -50,36 +51,39 @@ while i <= 5:
 print("\n4)\n")
 
 i = 1
+
 while i <= 5:
-    i = i + 1
+    i += 1
     print(i)
 
 
 # -------------------------------
 # 5. Infinite Loop (Common Mistake)
 # -------------------------------
-# If you don't update the variable, loop runs forever
+# Forgetting to update variable
 
 print("\n5)\n")
 
-# Example (DO NOT RUN):
+# Example (DO NOT RUN)
 # i = 1
 # while i <= 5:
 #     print(i)
-# → i never changes → infinite loop
+
+# → Infinite loop because i never changes
 
 
 # -------------------------------
 # 6. For Loop
 # -------------------------------
-# Used when number of iterations is known
+# Used when iteration count is known
 
 print("\n6)\n")
 
-# range(n) → 0 to n-1
+# range(n) → starts from 0
 for i in range(5):
     print(i)
 
+print()
 
 # range(start, stop)
 for i in range(1, 6):
@@ -94,13 +98,13 @@ print("\n7)\n")
 
 # While Loop:
 # - Condition based
-# - Manual update required
-# - Risk of infinite loop
+# - Manual update needed
+# - Can become infinite
 
 # For Loop:
-# - Fixed number of iterations
+# - Fixed iteration count
 # - Automatic iteration
-# - Safer and cleaner
+# - Cleaner for counting loops
 
 
 # -------------------------------
@@ -126,10 +130,69 @@ for i in range(10, 0, -1):
 
 
 # -------------------------------
-# 10. Repeating a Task.
+# 10. Repeating a Task
 # -------------------------------
 
 print("\n10)\n")
 
 for i in range(3):
     print("Python")
+
+
+# -------------------------------
+# 11. Loop Control Statements
+# -------------------------------
+# break and continue
+
+print("\n11)\n")
+
+# break → immediately stops the loop
+
+print("Break in for loop:")
+
+for i in range(1, 10):
+    if i == 5:
+        break
+    print(i)
+
+print()
+
+# break in while loop
+num = 1
+
+while num <= 10:
+    if num == 6:
+        break
+
+    print(num)
+    num += 1
+
+
+# -------------------------------
+# 12. Continue Statement
+# -------------------------------
+# continue → skips current iteration
+
+print("\n12)\n")
+
+print("Continue in for loop:")
+
+for i in range(1, 6):
+    if i == 3:
+        continue
+
+    print(i)
+
+print()
+
+print("Continue in while loop:")
+
+num = 0
+
+while num < 5:
+    num += 1
+
+    if num == 3:
+        continue
+
+    print(num)
