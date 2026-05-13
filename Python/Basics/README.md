@@ -61,28 +61,65 @@ This file covers Python operators and decision-making concepts with practical ex
 
 ---
 
-### 📄 loops_&_iteration.py
+### 📄 loops_and_iteration.py
 
 This file introduces loops in Python and explains how repetition works in programming.
 
 **Topics covered:**
 
-- Difference between `=` (assignment) and `==` (comparison)  
-- Concept of loops and iterations  
-- While loop and how it works  
-- Importance of updating variables in loops  
-- Infinite loop and common mistakes  
-- For loop and `range()` function  
-- Difference between while loop and for loop  
-- Using step values in loops  
+- Difference between `=` and `==`
+- Concept of loops and iterations
+- While loop
+- For loop
+- Infinite loops and common mistakes
+- `range()` function
+- Difference between while loop and for loop
+- Loop control statements:
+  - `break`
+  - `continue`
 
 **Examples included:**
 
-- Printing numbers using while loop  
-- Printing numbers using for loop  
-- Even numbers from 1 to 20  
-- Reverse counting (10 to 1)  
-- Repeating a statement multiple times  
+- Printing numbers using loops
+- Even numbers from 1 to 20
+- Reverse counting
+- Repeating tasks multiple times
+- Using `break` to stop loops
+- Using `continue` to skip iterations
+
+---
+
+### 📄 lists_and_tuples.py
+
+This file introduces sequential data types in Python, mainly lists and tuples.
+
+**Topics covered:**
+
+- Mutable vs immutable datatypes
+- Sequential datatypes
+- Lists and their properties
+- Indexing and negative indexing
+- Mutable nature of lists
+- List slicing
+- List methods:
+  - `append()`
+  - `insert()`
+  - `remove()`
+  - `pop()`
+- Tuples and their properties
+- Single element tuple
+- Tuple indexing
+- Tuple to list conversion
+- List to tuple conversion
+
+**Examples included:**
+
+- Accessing list elements
+- Updating list values
+- Reversing lists using slicing
+- Adding and removing elements
+- Working with tuples and indexing
+- Converting between lists and tuplesting a statement multiple times  
 
 ---
 
