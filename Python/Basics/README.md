@@ -19,7 +19,8 @@ daily-code/
 ├── 02_datatypes_typecasting.py
 ├── 03_operators_conditionals.py
 ├── 04_loops_iteration.py
-└── 05_lists_tuples.py
+├── 05_lists_tuples.py
+└── 06_strings_sets_dictionaries.py
 ```
 
 ---
@@ -149,6 +150,50 @@ Concepts covered:
 - Adding and removing elements
 - Working with tuples and indexing
 - Converting between lists and tuples
+
+---
+
+### 📄 `06_strings_sets_dictionaries.py`
+
+Concepts covered:
+
+- Mutable vs immutable datatypes
+- Strings and string indexing
+- String slicing
+- String methods:
+  - `upper()`
+  - `lower()`
+  - `replace()`
+  - `count()`
+- String concatenation
+- Membership operators in strings
+- Sets and their properties
+- Set methods:
+  - `add()`
+  - `remove()`
+  - `discard()`
+- Set operations:
+  - Union
+  - Intersection
+  - Difference
+- Dictionaries and key-value pairs
+- Dictionary methods:
+  - `keys()`
+  - `values()`
+  - `items()`
+  - `get()`
+- Iterating through dictionaries
+
+**Examples included:**
+
+- Accessing characters using indexing
+- Reversing and slicing strings
+- Modifying text using string methods
+- Removing duplicates using sets
+- Performing set operations
+- Storing student data using dictionaries
+- Accessing and updating dictionary values
+- Iterating through dictionary keys and values
 
 ---
 
