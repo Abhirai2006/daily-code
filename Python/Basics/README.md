@@ -20,7 +20,8 @@ daily-code/
 ├── 03_operators_conditionals.py
 ├── 04_loops_iteration.py
 ├── 05_lists_tuples.py
-└── 06_strings_sets_dictionaries.py
+├── 06_strings_sets_dictionaries.py
+└── 07_dictionaries_functions.py
 ```
 
 ---
@@ -194,6 +195,39 @@ Concepts covered:
 - Storing student data using dictionaries
 - Accessing and updating dictionary values
 - Iterating through dictionary keys and values
+
+---
+
+### 📄 `07_dictionaries_functions.py`
+
+Concepts covered:
+
+- Dictionary iteration using `items()`
+- Nested dictionaries
+- Accessing nested dictionary values
+- Iterating through nested dictionaries
+- Introduction to functions
+- Built-in functions:
+  - `max()`
+  - `min()`
+  - `len()`
+- User-defined functions
+- Functions with parameters
+- Non-returning functions
+- Returning functions
+- Functions with multiple parameters
+
+**Examples included:**
+
+- Printing dictionary keys and values
+- Working with student records using nested dictionaries
+- Accessing data inside nested dictionaries
+- Iterating through nested dictionaries
+- Creating and calling functions
+- Adding numbers using functions
+- Finding square of a number
+- Returning values from functions
+- Multiplying two numbers using functions
 
 ---
 
