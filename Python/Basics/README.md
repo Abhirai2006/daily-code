@@ -15,14 +15,19 @@ I’m using this repository to document my Python learning journey and improve t
 ```text
 daily-code/
 │
-├── 01_python_basics.py
-├── 02_datatypes_typecasting.py
-├── 03_operators_conditionals.py
-├── 04_loops_iteration.py
-├── 05_lists_tuples.py
-├── 06_strings_sets_dictionaries.py
-├── 07_dictionaries_functions.py
-└── 08_lambda_functions.py
+└── Python/
+    └── Basics/
+        ├── 01_python_basics_variables.py
+        ├── 02_datatypes_typecasting.py
+        ├── 03_operators_&_conditionals.py
+        ├── 04_loops_&_iteration.py
+        ├── 05_lists_&_tuples.py
+        ├── 06_strings_sets_dictionaries.py
+        ├── 07_dictionaries_functions.py
+        ├── 08_lambda_functions.py
+        ├── Python_assignment_questions.py
+        ├── Python_assignments_answers.py
+        └── README.md
 ```
 
 ---
@@ -31,7 +36,7 @@ daily-code/
 
 ---
 
-### 📄 `01_python_basics.py`
+### 📄 `01_python_basics_variables.py`
 
 ### Concepts covered:
 
@@ -76,7 +81,7 @@ daily-code/
 
 ---
 
-### 📄 `03_operators_conditionals.py`
+### 📄 `03_operators_&_conditionals.py`
 
 ### Concepts covered:
 
@@ -100,7 +105,7 @@ daily-code/
 
 ---
 
-### 📄 `04_loops_iteration.py`
+### 📄 `04_loops_&_iteration.py`
 
 ### Concepts covered:
 
@@ -126,7 +131,7 @@ daily-code/
 
 ---
 
-### 📄 `05_lists_tuples.py`
+### 📄 `05_lists_&_tuples.py`
 
 ### Concepts covered:
 
@@ -161,26 +166,40 @@ daily-code/
 
 ### Concepts covered:
 
-- Mutable vs immutable datatypes
-- Strings and string indexing
+#### Strings
+
+- String indexing
+- Negative indexing
 - String slicing
-- String methods:
-  - `upper()`
-  - `lower()`
-  - `replace()`
-  - `count()`
+- Reverse slicing
 - String concatenation
 - Membership operators in strings
-- Sets and their properties
+
+#### String Methods
+
+- `upper()`
+- `lower()`
+- `replace()`
+- `count()`
+
+#### Sets
+
+- Set properties
+- Removing duplicate values
 - Set methods:
   - `add()`
   - `remove()`
   - `discard()`
-- Set operations:
-  - Union
-  - Intersection
-  - Difference
-- Dictionaries and key-value pairs
+
+#### Set Operations
+
+- Union
+- Intersection
+- Difference
+
+#### Dictionaries
+
+- Key-value pairs
 - Dictionary methods:
   - `keys()`
   - `values()`
@@ -205,10 +224,15 @@ daily-code/
 
 ### Concepts covered:
 
+#### Dictionaries
+
 - Dictionary iteration using `items()`
 - Nested dictionaries
 - Accessing nested dictionary values
 - Iterating through nested dictionaries
+
+#### Functions
+
 - Introduction to functions
 - Built-in functions:
   - `max()`
@@ -238,16 +262,25 @@ daily-code/
 
 ### Concepts covered:
 
-- Lambda functions
+#### Lambda Functions
+
 - Anonymous functions
 - Lambda syntax
+- Single-line functions
 - Functions with single and multiple parameters
-- Using lambda with:
-  - `map()`
-  - `filter()`
-  - `sorted()`
+
+#### Lambda with Built-in Functions
+
+- `map()`
+- `filter()`
+- `sorted()`
+
+#### Sorting Concepts
+
 - Sorting using custom keys
 - Sorting with `reverse=True`
+- Sorting based on length
+- Sorting based on last digit
 
 ### Examples included:
 
@@ -262,6 +295,72 @@ daily-code/
 
 ---
 
+### 📄 `Python_assignment_questions.py`
+
+This file contains Python assignment questions for practicing problem-solving and programming fundamentals.
+
+### Topics covered:
+
+- Conditional statements
+- Loops
+- Strings
+- Lists
+- Functions
+- Lambda functions
+- Dictionaries
+- Sets
+- Number programs
+
+### Assignment questions included:
+
+1. Voting eligibility checker
+2. Set operations
+3. Reverse a string
+4. Palindrome checker
+5. Greatest among three numbers
+6. Prime numbers from 1 to 20
+7. Lambda + map practice
+8. Sum of digits
+9. Count digits in a number
+10. Count vowels in a string
+11. Anagram checker
+12. Sum of list elements using a function
+13. Reverse a number
+14. Armstrong number checker
+15. Frequency of elements in a list
+16. Frequency of characters in a string
+17. Student marks analysis
+18. Find longest word in a list
+19. Sort words using lambda
+20. Find duplicate elements in a list
+
+---
+
+### 📄 `Python_assignments_answers.py`
+
+This file contains detailed solutions for all assignment questions with explanations and comments.
+
+### Features:
+
+- Beginner-friendly code
+- Step-by-step logic
+- Proper comments for understanding
+- Clean formatting
+- Practical examples
+
+### Concepts practiced:
+
+- Problem-solving
+- Loop logic
+- Function creation
+- Dictionary handling
+- String manipulation
+- List operations
+- Lambda functions
+- Mathematical programs
+
+---
+
 ## 🛠️ Technologies Used
 
 - Python 3
@@ -272,12 +371,21 @@ daily-code/
 
 - Practice Python consistently
 - Build strong programming fundamentals
-- Improve problem-solving skills
-- Prepare for advanced topics like:
-  - Data Structures & Algorithms
-  - Machine Learning
-  - Artificial Intelligence
-  - Automation
+- Improve logical thinking and problem-solving
+
+---
+
+## 📈 Current Progress
+
+✅ Python Basics  
+✅ Datatypes & Type Casting  
+✅ Operators & Conditionals  
+✅ Loops & Iteration  
+✅ Lists & Tuples  
+✅ Strings, Sets & Dictionaries  
+✅ Functions  
+✅ Lambda Functions  
+✅ Assignment Practice Programs  
 
 ---
 
