@@ -21,16 +21,19 @@ daily-code/
 ├── 04_loops_iteration.py
 ├── 05_lists_tuples.py
 ├── 06_strings_sets_dictionaries.py
-└── 07_dictionaries_functions.py
+├── 07_dictionaries_functions.py
+└── 08_lambda_functions.py
 ```
 
 ---
 
 ## 📂 Files & What They Cover
 
+---
+
 ### 📄 `01_python_basics.py`
 
-Concepts covered:
+### Concepts covered:
 
 - Introduction to Python
 - Printing output using `print()`
@@ -41,7 +44,7 @@ Concepts covered:
 - Variables and storing data
 - Rules for naming variables
 
-**Examples included:**
+### Examples included:
 
 - Printing text and numbers
 - String concatenation
@@ -53,7 +56,7 @@ Concepts covered:
 
 ### 📄 `02_datatypes_typecasting.py`
 
-Concepts covered:
+### Concepts covered:
 
 - Integer (`int`)
 - Float (`float`)
@@ -63,7 +66,7 @@ Concepts covered:
 - Using `type()` function
 - Type casting / type conversion
 
-**Examples included:**
+### Examples included:
 
 - Converting between datatypes
 - Boolean conversions
@@ -75,7 +78,7 @@ Concepts covered:
 
 ### 📄 `03_operators_conditionals.py`
 
-Concepts covered:
+### Concepts covered:
 
 - Arithmetic operators
 - Comparison operators
@@ -86,7 +89,7 @@ Concepts covered:
 - Conditional statements
 - Nested `if` statements
 
-**Examples included:**
+### Examples included:
 
 - Positive / negative number check
 - Even / odd number check
@@ -99,7 +102,7 @@ Concepts covered:
 
 ### 📄 `04_loops_iteration.py`
 
-Concepts covered:
+### Concepts covered:
 
 - Difference between `=` and `==`
 - Introduction to loops
@@ -112,7 +115,7 @@ Concepts covered:
   - `break`
   - `continue`
 
-**Examples included:**
+### Examples included:
 
 - Printing numbers using loops
 - Even numbers from 1 to 20
@@ -125,7 +128,7 @@ Concepts covered:
 
 ### 📄 `05_lists_tuples.py`
 
-Concepts covered:
+### Concepts covered:
 
 - Mutable vs immutable datatypes
 - Sequential datatypes
@@ -143,7 +146,7 @@ Concepts covered:
 - Tuple to list conversion
 - List to tuple conversion
 
-**Examples included:**
+### Examples included:
 
 - Accessing list elements
 - Updating list values
@@ -156,7 +159,7 @@ Concepts covered:
 
 ### 📄 `06_strings_sets_dictionaries.py`
 
-Concepts covered:
+### Concepts covered:
 
 - Mutable vs immutable datatypes
 - Strings and string indexing
@@ -185,7 +188,7 @@ Concepts covered:
   - `get()`
 - Iterating through dictionaries
 
-**Examples included:**
+### Examples included:
 
 - Accessing characters using indexing
 - Reversing and slicing strings
@@ -200,7 +203,7 @@ Concepts covered:
 
 ### 📄 `07_dictionaries_functions.py`
 
-Concepts covered:
+### Concepts covered:
 
 - Dictionary iteration using `items()`
 - Nested dictionaries
@@ -217,7 +220,7 @@ Concepts covered:
 - Returning functions
 - Functions with multiple parameters
 
-**Examples included:**
+### Examples included:
 
 - Printing dictionary keys and values
 - Working with student records using nested dictionaries
@@ -231,10 +234,55 @@ Concepts covered:
 
 ---
 
+### 📄 `08_lambda_functions.py`
+
+### Concepts covered:
+
+- Lambda functions
+- Anonymous functions
+- Lambda syntax
+- Functions with single and multiple parameters
+- Using lambda with:
+  - `map()`
+  - `filter()`
+  - `sorted()`
+- Sorting using custom keys
+- Sorting with `reverse=True`
+
+### Examples included:
+
+- Finding square using lambda
+- Adding numbers using lambda
+- Checking even numbers
+- Squaring list elements using `map()`
+- Filtering even numbers using `filter()`
+- Sorting lists in ascending and descending order
+- Sorting words based on length
+- Sorting numbers using last digit logic
+
+---
+
+## 🛠️ Technologies Used
+
+- Python 3
+
+---
+
+## 🎯 Goal of This Repository
+
+- Practice Python consistently
+- Build strong programming fundamentals
+- Improve problem-solving skills
+- Prepare for advanced topics like:
+  - Data Structures & Algorithms
+  - Machine Learning
+  - Artificial Intelligence
+  - Automation
+
+---
+
 ## ⭐ Final Note
 
 This repository reflects my progress as a beginner learning Python step by step.
-
 Every file represents consistent practice and gradual improvement.
-
 Thanks for visiting my repository! 🚀
