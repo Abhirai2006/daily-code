@@ -90,3 +90,53 @@ print("\n----- Calling Class Method -----")
 
 Car.start()
 
+
+# =========================================
+# What is an Object?
+# =========================================
+
+# An object is an instance of a class.
+
+# If class = blueprint
+# Then object = real thing created from blueprint
+
+# Example:
+# Blueprint -> Car Design
+# Object -> Actual Car
+
+
+# =========================================
+# Creating Objects
+# =========================================
+
+class Student:
+
+    college = "ABC College"
+
+    def study():
+        print("Student is studying")
+
+
+# Creating Objects
+s1 = Student()
+s2 = Student()
+
+
+# ----- Accessing Object Variables -----
+
+print("\n----- Accessing Object Variables -----")
+
+print("Student 1 College :", s1.college)
+print("Student 2 College :", s2.college)
+
+
+# ----- Calling Object Methods -----
+
+print("\n----- Calling Object Methods -----")
+
+print("\nOutput From s1.study()")
+s1.study()
+
+print("\nOutput From s2.study()")
+s2.study()
+
