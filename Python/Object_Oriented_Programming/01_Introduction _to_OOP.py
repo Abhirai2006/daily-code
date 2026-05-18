@@ -140,3 +140,24 @@ s1.study()
 print("\nOutput From s2.study()")
 s2.study()
 
+
+# =========================================
+# Advantages of OOP
+# =========================================
+
+# 1. Reusability
+# 2. Better Structure
+# 3. Easier Maintenance
+# 4. Better Scalability
+# 5. Real-world Modeling
+
+
+# =========================================
+# Four Pillars of OOP
+# =========================================
+
+# 1. Inheritance
+# 2. Encapsulation
+# 3. Polymorphism
+# 4. Abstraction
+
