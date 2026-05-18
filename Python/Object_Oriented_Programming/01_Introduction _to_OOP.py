@@ -66,3 +66,27 @@
 # =========================================
 # Simple Class Example
 # =========================================
+
+class Car:
+
+    # Class Variable
+    color = "Red"
+
+    # Method
+    def start():
+        print("Car Started")
+
+
+# ----- Accessing Class Variable -----
+
+print("\n----- Accessing Class Variable -----")
+
+print("Car Color :", Car.color)
+
+
+# ----- Calling Class Method -----
+
+print("\n----- Calling Class Method -----")
+
+Car.start()
+
