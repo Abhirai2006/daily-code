@@ -76,3 +76,69 @@ c2.start()
 # This is how Python identifies
 # which object is calling the method.
 
+
+# =========================================
+# Example of self Keyword
+# =========================================
+
+class Student:
+
+    college = "ABC College"
+
+    def introduce(self):
+        print("I study at", self.college)
+
+
+# Creating Objects
+s1 = Student()
+s2 = Student()
+
+
+# ----- Using self Keyword -----
+
+print("\n----- Using self Keyword -----")
+
+s1.introduce()
+s2.introduce()
+
+
+# =========================================
+# Object-Specific Data
+# =========================================
+
+# Each object can store its own data.
+
+# self helps Python work with
+# the correct object data.
+
+
+# =========================================
+# Setting Object Data
+# =========================================
+
+class Employee:
+
+    def set_name(self, name):
+        self.name = name
+
+    def show_name(self):
+        print("Employee Name :", self.name)
+
+
+# Creating Objects
+e1 = Employee()
+e2 = Employee()
+
+
+# Setting Different Names
+e1.set_name("Rahul")
+e2.set_name("Anjali")
+
+
+# ----- Displaying Object Data -----
+
+print("\n----- Displaying Object Data -----")
+
+e1.show_name()
+e2.show_name()
+
