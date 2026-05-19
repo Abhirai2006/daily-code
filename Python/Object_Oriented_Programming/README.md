@@ -16,6 +16,7 @@ The goal of this repository is to build strong OOP fundamentals through:
 Object_Oriented_Programming/
 │
 ├── 01_introduction_to_oops.py
+├── 02_classes_objects_self.py
 ```
 
 ---
@@ -40,6 +41,25 @@ Object_Oriented_Programming/
 - Basic class creation
 - Creating objects
 - Accessing class variables
+
+---
+
+## 📄 `02_classes_objects_self.py`
+
+### Concepts Covered:
+
+- Classes and Objects
+- `self` keyword
+- Object variables
+- Instance methods
+- Accessing object data
+
+### Examples Included:
+
+- Student class
+- Car class
+- Using `self`
+- Multiple object examples
 
 ---
 
