@@ -26,3 +26,31 @@
 # =========================================
 # Creating a Simple Class
 # =========================================
+class Car:
+
+    color = "Red"
+
+    def start(self):
+        print("Car Started")
+
+
+# Creating Objects
+c1 = Car()
+c2 = Car()
+
+
+# ----- Accessing Object Variables -----
+
+print("\n----- Accessing Object Variables -----")
+
+print("Car 1 Color :", c1.color)
+print("Car 2 Color :", c2.color)
+
+
+# ----- Calling Object Methods -----
+
+print("\n----- Calling Object Methods -----")
+
+c1.start()
+c2.start()
+
