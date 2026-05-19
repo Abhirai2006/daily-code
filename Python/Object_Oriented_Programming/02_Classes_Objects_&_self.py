@@ -54,3 +54,25 @@ print("\n----- Calling Object Methods -----")
 c1.start()
 c2.start()
 
+
+# =========================================
+# Understanding the self Keyword
+# =========================================
+
+# self represents the current object.
+
+# When we call:
+# c1.start()
+
+# Python internally converts it into:
+# Car.start(c1)
+
+# Similarly:
+# c2.start()
+
+# becomes:
+# Car.start(c2)
+
+# This is how Python identifies
+# which object is calling the method.
+
