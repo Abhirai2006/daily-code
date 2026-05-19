@@ -142,3 +142,34 @@ print("\n----- Displaying Object Data -----")
 e1.show_name()
 e2.show_name()
 
+
+# =========================================
+# Internal Working of self
+# =========================================
+
+# e1.set_name("Rahul")
+
+# Internally:
+# Employee.set_name(e1, "Rahul")
+
+# e1.show_name()
+
+# Internally:
+# Employee.show_name(e1)
+
+# self always points to the
+# current object.
+
+
+# =========================================
+# Important Points About self
+# =========================================
+
+# 1. self represents the current object
+# 2. self is automatically passed by Python
+# 3. self helps access object variables
+# 4. self is used inside class methods
+# 5. self is not a keyword
+#    (we can technically use another name,
+#     but self is the standard convention)
+
