@@ -70,3 +70,48 @@ print()
 print("Employee 2 Name :", e2.name)
 print("Employee 2 Age  :", e2.age)
 
+
+# =========================================
+# How __init__() Works Internally
+# =========================================
+
+# When we write:
+# e1 = Employee("Rahul", 23)
+
+# Python internally does:
+# Employee.__init__(e1, "Rahul", 23)
+
+# self automatically refers
+# to the current object.
+
+
+# =========================================
+# Constructor with Methods
+# =========================================
+
+class Car:
+
+    def __init__(self, brand, color):
+
+        self.brand = brand
+        self.color = color
+
+    def show_details(self):
+
+        print("Car Brand :", self.brand)
+        print("Car Color :", self.color)
+
+
+# ----- Displaying Car Details -----
+
+print("\n----- Displaying Car Details -----")
+
+c1 = Car("BMW", "Black")
+c2 = Car("Audi", "White")
+
+c1.show_details()
+
+print()
+
+c2.show_details()
+
