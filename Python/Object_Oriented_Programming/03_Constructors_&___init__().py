@@ -26,3 +26,21 @@
 # - Assign values to objects
 # - Reduce repetitive code
 
+
+# =========================================
+# Constructor Syntax
+# =========================================
+
+class Student:
+    def __init__(self):
+        print("Constructor Executed")
+
+
+# ----- Creating Object -----
+print("\n----- Creating Object -----")
+
+s1 = Student()
+
+# Constructor runs automatically
+# when object is created.
+
