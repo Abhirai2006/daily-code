@@ -115,3 +115,63 @@ print()
 
 c2.show_details()
 
+
+# =========================================
+# Multiple Objects Have Separate Data
+# =========================================
+
+# Every object gets its own copy
+# of object variables.
+
+# Example:
+# c1 has separate data
+# c2 has separate data
+
+
+# =========================================
+# Constructor Overriding
+# =========================================
+
+# If multiple constructors are created,
+# the latest constructor overrides
+# the previous one.
+
+
+class Demo:
+
+    def __init__(self):
+        print("First Constructor")
+
+    def __init__(self):
+        print("Second Constructor")
+
+
+# ----- Creating Demo Object -----
+
+print("\n----- Creating Demo Object -----")
+d1 = Demo()
+
+# Only the latest constructor executes.
+
+
+# =========================================
+# Advantages of Constructors
+# =========================================
+
+# 1. Automatic initialization
+# 2. Cleaner code
+# 3. Easier object creation
+# 4. Reduces repetitive code
+# 5. Improves readability
+
+
+# =========================================
+# Important Points About __init__()
+# =========================================
+
+# 1. __init__() is called automatically
+# 2. Used to initialize object data
+# 3. self refers to current object
+# 4. Each object gets separate data
+# 5. Multiple constructors are not supported like some other languages
+
