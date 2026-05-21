@@ -66,3 +66,39 @@ c1.start()
 # Accessing Child Class Method
 c1.drive()
 
+
+# =========================================
+# Understanding Code Reusability
+# =========================================
+
+# Because Car inherited Vehicle,
+# we do not need to rewrite
+# the start() method again.
+
+# This saves time and reduces code duplication.
+
+# =========================================
+# Another Inheritance Example
+# =========================================
+
+class Animal:
+    def eat(self):
+        print("Animal Eats Food")
+
+
+# Dog inherits from Animal
+class Dog(Animal):
+    def bark(self):
+        print("Dog Barks")
+
+
+# ----- Creating Dog Object -----
+
+print("\n----- Creating Dog Object -----")
+
+d1 = Dog()
+# Accessing Parent Class Method
+d1.eat()
+# Accessing Child Class Method
+d1.bark()
+
