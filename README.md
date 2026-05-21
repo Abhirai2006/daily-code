@@ -26,7 +26,8 @@ daily-code/
     └── Object_Oriented_Programming/
         ├── 01_Introduction_to_OOP.py
         ├── 02_Classes_Objects_&_self.py
-        └── 03_Constructors_&__init__().py
+        ├── 03_Constructors_&__init__().py
+        └── 04_Inheritance_basics.py
 ```
 
 ---
@@ -55,6 +56,7 @@ daily-code/
 | [01_Introduction_to_OOP.py](https://github.com/Abhirai2006/daily-code/blob/main/Python/Object_Oriented_Programming/01_Introduction%20_to_OOP.py) | what is OOP, classes, objects, real-world analogies |
 | [02_Classes_Objects_&_self.py](https://github.com/Abhirai2006/daily-code/blob/main/Python/Object_Oriented_Programming/02_Classes_Objects_%26_self.py) | self keyword, instance methods, multiple objects |
 | [03_Constructors_&__init__().py](https://github.com/Abhirai2006/daily-code/blob/main/Python/Object_Oriented_Programming/03_Constructors_%26___init__().py) | __init__(), object initialization, constructor overriding |
+| [04_Inheritance_basics.py](https://github.com/Abhirai2006/daily-code/blob/main/Python/Object_Oriented_Programming/04_Inheritance_basics.py) | inheritance, parent & child class, code reusability, method reusing |
 
 ---
 
