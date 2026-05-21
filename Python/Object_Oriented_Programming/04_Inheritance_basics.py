@@ -102,3 +102,65 @@ d1.eat()
 # Accessing Child Class Method
 d1.bark()
 
+
+# =========================================
+# Inheritance Flow
+# =========================================
+
+# Parent Class  --->  Child Class
+
+# Example:
+# Vehicle ---> Car
+# Animal  ---> Dog
+
+# Child class gets access to:
+# - Parent methods
+# - Parent variables
+
+
+# =========================================
+# Child Class Can Have Its Own Methods
+# =========================================
+
+class Person:
+    def show_name(self):
+        print("Person Name")
+
+class Student(Person):
+    def study(self):
+        print("Student is Studying")
+
+
+# ----- Creating Student Object -----
+
+print("\n----- Creating Student Object -----")
+
+s1 = Student()
+# Parent Class Method
+s1.show_name()
+# Child Class Method
+s1.study()
+
+
+# =========================================
+# Advantages of Inheritance
+# =========================================
+
+# 1. Code Reusability
+# 2. Reduces Duplicate Code
+# 3. Easier Maintenance
+# 4. Better Program Structure
+# 5. Easier Expansion of Programs
+
+
+# =========================================
+# Important Points About Inheritance
+# =========================================
+
+# 1. Child class inherits from parent class
+# 2. Parent methods can be reused
+# 3. Child class can add new methods
+# 4. Inheritance improves code organization
+# 5. Syntax:
+#    class Child(Parent)
+
