@@ -100,3 +100,43 @@ c2.show_grandparent()
 c2.show_parent()
 c2.show_child()
 
+
+# =========================================
+# 4. Hierarchical Inheritance
+# =========================================
+
+# Multiple child classes inherit
+# from the same parent class.
+
+# One Parent -> Many Children
+
+class Animal:
+    def eat(self):
+        print("Animal Eats Food")
+
+
+class Dog(Animal):
+    def bark(self):
+        print("Dog Barks")
+
+
+class Cat(Animal):
+    def meow(self):
+        print("Cat Meows")
+
+
+# ----- Hierarchical Inheritance Example -----
+
+print("\n----- Hierarchical Inheritance Example -----")
+
+d2 = Dog()
+c3 = Cat()
+
+d2.eat()
+d2.bark()
+
+print()
+
+c3.eat()
+c3.meow()
+
