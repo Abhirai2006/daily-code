@@ -27,7 +27,8 @@ daily-code/
         ├── 01_Introduction_to_OOP.py
         ├── 02_Classes_Objects_&_self.py
         ├── 03_Constructors_&__init__().py
-        └── 04_Inheritance_basics.py
+        ├── 04_Inheritance_basics.py
+        └── 05_Types_of_inheritance.py
 ```
 
 ---
@@ -57,7 +58,7 @@ daily-code/
 | [02_Classes_Objects_&_self.py](https://github.com/Abhirai2006/daily-code/blob/main/Python/Object_Oriented_Programming/02_Classes_Objects_%26_self.py) | self keyword, instance methods, multiple objects |
 | [03_Constructors_&__init__().py](https://github.com/Abhirai2006/daily-code/blob/main/Python/Object_Oriented_Programming/03_Constructors_%26___init__().py) | __init__(), object initialization, constructor overriding |
 | [04_Inheritance_basics.py](https://github.com/Abhirai2006/daily-code/blob/main/Python/Object_Oriented_Programming/04_Inheritance_basics.py) | inheritance, parent & child class, code reusability, method reusing |
-
+| [05_Types_of_inheritance.py](https://github.com/Abhirai2006/daily-code/blob/main/Python/Object_Oriented_Programming/05_Types_of_inheritance.py) | single, multiple, multilevel, hierarchical & hybrid inheritance, super(), MRO |
 ---
 
 ## 🎯 Goal
