@@ -18,6 +18,7 @@ Object_Oriented_Programming/
 ├── 01_introduction_to_oops.py
 ├── 02_classes_objects_self.py
 ├── 03_constructors_init_method.py
+├── 04_inheritance_basics.py
 ```
 
 ---
@@ -80,6 +81,24 @@ Object_Oriented_Programming/
 - Employee initialization
 - Car details program
 - Constructor overriding example
+
+---
+
+## 📄 `04_inheritance_basics.py`
+
+### Concepts Covered:
+
+- Inheritance
+- Parent class
+- Child class
+- Code reusability
+- Reusing methods and variables
+
+### Examples Included:
+
+- Vehicle and Car example
+- Animal and Dog example
+- Student inheritance example
 
 ---
 
