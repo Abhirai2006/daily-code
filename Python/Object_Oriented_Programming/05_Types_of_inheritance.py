@@ -140,3 +140,43 @@ print()
 c3.eat()
 c3.meow()
 
+
+# =========================================
+# 5. Hybrid Inheritance
+# =========================================
+
+# Hybrid inheritance is a combination
+# of two or more inheritance types.
+
+
+class Person:
+    def details(self):
+        print("Person Details")
+
+
+class Student(Person):
+    def study(self):
+        print("Student is Studying")
+
+
+class Employee(Person):
+    def work(self):
+        print("Employee is Working")
+
+
+class Intern(Student, Employee):
+    def role(self):
+        print("I am an Intern")
+
+
+# ----- Hybrid Inheritance Example -----
+
+print("\n----- Hybrid Inheritance Example -----")
+
+i1 = Intern()
+
+i1.details()
+i1.study()
+i1.work()
+i1.role()
+
