@@ -37,3 +37,33 @@ print("\n----- Single Inheritance Example -----")
 d1 = Dog()
 d1.eat()
 d1.bark()
+
+
+
+# =========================================
+# 2. Multiple Inheritance
+# =========================================
+
+# One child class inherits
+# from multiple parent classes.
+
+class Father:
+    def skills(self):
+        print("Driving")
+
+class Mother:
+    def skills(self):
+        print("Cooking")
+
+
+class Child(Father, Mother):
+    pass
+
+
+# ----- Multiple Inheritance Example -----
+
+print("\n----- Multiple Inheritance Example -----")
+
+c1 = Child()
+c1.skills()
+
