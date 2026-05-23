@@ -180,3 +180,39 @@ i1.study()
 i1.work()
 i1.role()
 
+
+# =========================================
+# super() Function
+# =========================================
+
+# super() is used to call
+# methods from the parent class.
+
+# It helps avoid directly
+# using parent class names.
+
+
+class Father:
+    def skills(self):
+        print("Driving")
+        super().skills()
+
+
+class Mother:
+    def skills(self):
+        print("Cooking")
+
+
+class Child(Father, Mother):
+    def skills(self):
+        print("Child Skills")
+        super().skills()
+
+
+# ----- super() Example -----
+
+print("\n----- super() Example -----")
+
+c4 = Child()
+c4.skills()
+
