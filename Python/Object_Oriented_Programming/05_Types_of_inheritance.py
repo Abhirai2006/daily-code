@@ -216,3 +216,88 @@ print("\n----- super() Example -----")
 c4 = Child()
 c4.skills()
 
+
+# =========================================
+# Method Resolution Order (MRO)
+# =========================================
+
+# MRO defines the order in which
+# Python searches for methods.
+
+# Especially important in
+# multiple inheritance.
+
+
+# ----- Displaying MRO -----
+
+print("\n----- Displaying MRO -----")
+
+print(Child.mro())
+
+
+# =========================================
+# Method Overriding Example
+# =========================================
+
+class Grandparent:
+    def show(self):
+        print("I am Grandparent")
+
+class Parent(Grandparent):
+    def show(self):
+        print("I am Parent")
+
+
+class Child(Parent):
+    def show(self):
+        print("I am Child")
+        super().show()
+
+
+# ----- Method Overriding Example -----
+
+print("\n----- Method Overriding Example -----")
+
+c5 = Child()
+c5.show()
+
+
+# =========================================
+# Important Points About Inheritance
+# =========================================
+
+# 1. Single Inheritance
+#    One Parent -> One Child
+
+# 2. Multiple Inheritance
+#    Multiple Parents -> One Child
+
+# 3. Multilevel Inheritance
+#    Grandparent -> Parent -> Child
+
+# 4. Hierarchical Inheritance
+#    One Parent -> Multiple Children
+
+# 5. Hybrid Inheritance
+#    Combination of inheritance types
+
+
+# =========================================
+# Important Points About super()
+# =========================================
+
+# 1. Calls the next class in MRO
+# 2. Helps avoid direct parent calls
+# 3. Commonly used in inheritance
+# 4. Useful in method overriding
+
+
+# =========================================
+# Important Points About MRO
+# =========================================
+
+# MRO -> Method Resolution Order
+
+# We can check MRO using:
+# ClassName.mro()
+
