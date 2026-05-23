@@ -67,3 +67,36 @@ print("\n----- Multiple Inheritance Example -----")
 c1 = Child()
 c1.skills()
 
+
+# =========================================
+# 3. Multilevel Inheritance
+# =========================================
+
+# A class inherits from another class,
+# and another class inherits from it.
+
+# Grandparent -> Parent -> Child
+
+class Grandparent:
+    def show_grandparent(self):
+        print("I am Grandparent")
+
+class Parent(Grandparent):
+    def show_parent(self):
+        print("I am Parent")
+
+class Child(Parent):
+    def show_child(self):
+        print("I am Child")
+
+
+# ----- Multilevel Inheritance Example -----
+
+print("\n----- Multilevel Inheritance Example -----")
+
+c2 = Child()
+
+c2.show_grandparent()
+c2.show_parent()
+c2.show_child()
+
