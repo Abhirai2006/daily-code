@@ -28,3 +28,72 @@
 # - Control Access
 # - Hide Internal Details
 
+
+# =========================================
+# Real World Example
+# =========================================
+
+# ATM Machine:
+# We interact using buttons.
+
+# We cannot directly access:
+# - Bank server
+# - Account database
+# - Internal transaction logic
+
+# This is encapsulation.
+
+
+# =========================================
+# Types of Access in Python
+# =========================================
+
+# 1. Public Variables
+# 2. Protected Variables
+# 3. Private Variables
+
+
+# =========================================
+# Public, Protected & Private Variables
+# =========================================
+
+class Student:
+    def __init__(self):
+        # Public Variable
+        self.name = "Rahul"
+        # Protected Variable
+        self._age = 20
+        # Private Variable
+        self.__marks = 95
+
+
+# Creating Object
+s1 = Student()
+
+# ----- Accessing Public Variable -----
+
+print("\n----- Accessing Public Variable -----")
+
+print("Student Name :", s1.name)
+
+
+# ----- Accessing Protected Variable -----
+
+print("\n----- Accessing Protected Variable -----")
+
+print("Student Age :", s1._age)
+
+# Protected variables can still be accessed,
+# but it is not recommended outside the class.
+
+
+# ----- Accessing Private Variable -----
+
+print("\n----- Accessing Private Variable -----")
+
+# This will generate an error
+# because private variables
+# cannot be accessed directly.
+
+# print(s1.__marks)
+
