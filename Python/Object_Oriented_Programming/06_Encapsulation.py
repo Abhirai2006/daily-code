@@ -97,3 +97,26 @@ print("\n----- Accessing Private Variable -----")
 
 # print(s1.__marks)
 
+# =========================================
+# Understanding Name Mangling
+# =========================================
+
+# Python internally changes:
+
+# self.__marks
+
+# into:
+
+# self._Student__marks
+
+# This process is called:
+# Name Mangling
+
+
+# ----- Accessing Private Variable Using Name Mangling -----
+
+print("\n----- Accessing Private Variable Using Name Mangling -----")
+
+print("Student Marks :", s1._Student__marks)
+
+
