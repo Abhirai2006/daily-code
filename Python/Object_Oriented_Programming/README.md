@@ -19,6 +19,7 @@ Object_Oriented_Programming/
 ├── 02_classes_objects_self.py
 ├── 03_constructors_init_method.py
 ├── 04_inheritance_basics.py
+├── 05_types_of_inheritance.py
 ```
 
 ---
@@ -99,6 +100,28 @@ Object_Oriented_Programming/
 - Vehicle and Car example
 - Animal and Dog example
 - Student inheritance example
+
+---
+
+## 📄 `05_types_of_inheritance.py`
+
+### Concepts Covered:
+
+- Single Inheritance
+- Multiple Inheritance
+- Multilevel Inheritance
+- Hierarchical Inheritance
+- Hybrid Inheritance
+- `super()` function
+- MRO (Method Resolution Order)
+
+### Examples Included:
+
+- Parent-child examples
+- Multiple inheritance examples
+- Method overriding
+- MRO examples
+- Hybrid inheritance structure
 
 ---
 
