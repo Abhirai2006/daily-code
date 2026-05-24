@@ -238,3 +238,34 @@ print("Student Marks :", s2.get_marks())
 print("\n----- Trying Invalid Marks -----")
 s2.set_marks(150)
 
+
+# =========================================
+# Advantages of Encapsulation
+# =========================================
+
+# 1. Better Data Security
+# 2. Controlled Access
+# 3. Data Hiding
+# 4. Cleaner Code
+# 5. Easier Maintenance
+
+
+# =========================================
+# Important Points About Encapsulation
+# =========================================
+
+# 1. Public Variables:
+#    Accessible everywhere
+
+# 2. Protected Variables:
+#    Should be accessed carefully
+
+# 3. Private Variables:
+#    Cannot be directly accessed
+
+# 4. Name Mangling:
+#    Python internally renames private variables
+
+# 5. Getters and Setters:
+#    Used to safely access and update data
+
