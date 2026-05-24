@@ -144,3 +144,59 @@ print("New Variable Value :", d1.__value)
 print("Original Private Value :", d1._Demo__value)
 
 
+# =========================================
+# Getters and Setters
+# =========================================
+
+# Getter:
+# Used to read data
+
+# Setter:
+# Used to update data with validation
+
+
+# =========================================
+# Getter and Setter Example
+# =========================================
+
+class BankAccount:
+    def __init__(self):
+        self.__balance = 0
+
+    # Getter Method
+    def get_balance(self):
+        return self.__balance
+
+
+    # Setter Method
+    def set_balance(self, amount):
+        if amount >= 0:
+            self.__balance = amount
+        else:
+            print("Invalid Amount")
+
+
+# Creating Object
+b1 = BankAccount()
+
+# ----- Checking Initial Balance -----
+
+print("\n----- Checking Initial Balance -----")
+
+print("Account Balance :", b1.get_balance())
+
+
+# ----- Updating Balance -----
+
+print("\n----- Updating Balance -----")
+
+b1.set_balance(5000)
+print("Updated Balance :", b1.get_balance())
+
+
+# ----- Trying Invalid Balance -----
+
+print("\n----- Trying Invalid Balance -----")
+b1.set_balance(-1000)
+
+
