@@ -120,3 +120,27 @@ print("\n----- Accessing Private Variable Using Name Mangling -----")
 print("Student Marks :", s1._Student__marks)
 
 
+# =========================================
+# Modifying Private Variables Incorrectly
+# =========================================
+
+class Demo:
+    def __init__(self):
+
+        self.__value = 100
+
+
+d1 = Demo()
+
+# This creates a new variable,
+# not modify the original private variable.
+d1.__value = 500
+
+# ----- Checking Variable Values -----
+
+print("\n----- Checking Variable Values -----")
+
+print("New Variable Value :", d1.__value)
+print("Original Private Value :", d1._Demo__value)
+
+
