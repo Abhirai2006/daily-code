@@ -200,3 +200,41 @@ print("\n----- Trying Invalid Balance -----")
 b1.set_balance(-1000)
 
 
+
+# =========================================
+# Another Getter and Setter Example
+# =========================================
+
+class StudentMarks:
+    def __init__(self):
+        self.__marks = 0
+
+    # Getter Method
+    def get_marks(self):
+        return self.__marks
+
+
+    # Setter Method
+    def set_marks(self, value):
+        if 0 <= value <= 100:
+            self.__marks = value
+        else:
+            print("Invalid Marks")
+
+
+# Creating Object
+s2 = StudentMarks()
+
+# ----- Updating Student Marks -----
+
+print("\n----- Updating Student Marks -----")
+
+s2.set_marks(85)
+print("Student Marks :", s2.get_marks())
+
+
+# ----- Trying Invalid Marks -----
+
+print("\n----- Trying Invalid Marks -----")
+s2.set_marks(150)
+
