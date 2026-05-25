@@ -96,3 +96,42 @@ print("\n----- Calling add() Function -----")
 print(add(5, 10))
 print(add("Hello ", "World"))
 
+
+# =========================================
+# Method Polymorphism
+# =========================================
+
+# Same method name
+# behaves differently
+# in different classes.
+
+
+# =========================================
+# Payment System Example
+# =========================================
+
+class Payment:
+    def pay(self):
+        print("Processing Payment")
+
+class UPI(Payment):
+    def pay(self):
+        print("Paid Using UPI")
+
+class Card(Payment):
+    def pay(self):
+        print("Paid Using Card")
+
+class Cash(Payment):
+    def pay(self):
+        print("Paid Using Cash")
+
+
+# ----- Payment System Example -----
+
+print("\n----- Payment System Example -----")
+
+payments = [UPI(), Card(), Cash()]
+for p in payments:
+    p.pay()
+
