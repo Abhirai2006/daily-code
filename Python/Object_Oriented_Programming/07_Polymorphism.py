@@ -65,3 +65,34 @@ print("\n----- Using len() Function -----")
 print(len("Python"))
 print(len([1, 2, 3, 4, 5]))
 
+
+# =========================================
+# Operator Polymorphism
+# =========================================
+
+# Same operator behaves differently.
+
+
+# ----- Using + Operator -----
+
+print("\n----- Using + Operator -----")
+
+print(10 + 20)
+print("Hello " + "Python")
+
+
+# =========================================
+# Function Example
+# =========================================
+
+def add(a, b):
+    return a + b
+
+
+# ----- Calling add() Function -----
+
+print("\n----- Calling add() Function -----")
+
+print(add(5, 10))
+print(add("Hello ", "World"))
+
