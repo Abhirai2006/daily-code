@@ -42,3 +42,25 @@
 # - Security checks
 
 # This is abstraction.
+
+
+# =========================================
+# Simple Example Without Abstraction
+# =========================================
+
+def send_email():
+    print("Connecting To Server...")
+    print("Authenticating User...")
+    print("Sending Email...")
+
+
+# ----- Sending Email -----
+
+print("\n----- Sending Email -----")
+send_email()
+
+# User only calls:
+# send_email()
+
+# Internal implementation is hidden.
+
