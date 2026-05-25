@@ -179,3 +179,14 @@ car.start_engine()
 car.accelerate()
 car.brake()
 
+
+# =========================================
+# Abstraction vs Polymorphism
+# =========================================
+
+# Abstraction:
+# Focuses on design and rules.
+
+# Polymorphism:
+# Focuses on different behaviors.
+
