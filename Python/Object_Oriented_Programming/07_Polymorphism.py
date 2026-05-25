@@ -252,3 +252,24 @@ for n in notifications:
     n.send(recipient, message)
     print("-" * 40)
 
+# =========================================
+# Advantages of Polymorphism
+# =========================================
+
+# 1. Cleaner Code
+# 2. Better Flexibility
+# 3. Easier Maintenance
+# 4. Better Scalability
+# 5. Reduces Repetitive Code
+
+
+# =========================================
+# Important Points About Polymorphism
+# =========================================
+
+# 1. Same method can behave differently
+# 2. Improves code flexibility
+# 3. Runtime polymorphism uses method overriding
+# 4. Common in real-world applications
+# 5. Makes programs easier to expand
+
