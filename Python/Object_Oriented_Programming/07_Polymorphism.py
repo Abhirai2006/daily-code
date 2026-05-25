@@ -207,3 +207,48 @@ print("\n----- With Polymorphism -----")
 obj = Car()
 obj.start()
 
+
+# =========================================
+# Notification System Example
+# =========================================
+
+class Notification:
+    def send(self, recipient, message):
+        pass
+
+
+class Email(Notification):
+    def send(self, recipient, message):
+        print("Notification Type : Email")
+        print(f"Email Sent To {recipient} : {message}")
+
+
+class SMS(Notification):
+    def send(self, recipient, message):
+        print("Notification Type : SMS")
+        print(f"SMS Sent To {recipient} : {message}")
+
+
+class PushNotification(Notification):
+    def send(self, recipient, message):
+        print("Notification Type : Push Notification")
+        print(f"Push Notification Sent To {recipient} : {message}")
+
+
+# ----- Notification System Example -----
+
+print("\n----- Notification System Example -----")
+
+notifications = [
+    Email(),
+    SMS(),
+    PushNotification()
+]
+
+recipient = "Rahul"
+message = "Welcome To Python OOPs"
+
+for n in notifications:
+    n.send(recipient, message)
+    print("-" * 40)
+
