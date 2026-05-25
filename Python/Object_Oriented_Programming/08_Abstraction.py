@@ -153,3 +153,29 @@ class Car(ABC):
     @abstractmethod
     def brake(self):
         pass
+
+# =========================================
+# Implementing Abstract Methods
+# =========================================
+
+class SUV(Car):
+    def start_engine(self):
+        print("Engine Started")
+
+    def accelerate(self):
+        print("Car Accelerating")
+
+    def brake(self):
+        print("Brakes Applied")
+
+
+# ----- Car System Example -----
+
+print("\n----- Car System Example -----")
+
+car = SUV()
+
+car.start_engine()
+car.accelerate()
+car.brake()
+
