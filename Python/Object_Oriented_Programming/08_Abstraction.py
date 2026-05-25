@@ -99,3 +99,28 @@ class Payment(ABC):
 # Example:
 # p1 = Payment()   //Error//
 
+
+# =========================================
+# Child Classes Must Implement Methods
+# =========================================
+
+class CreditCardPayment(Payment):
+    def pay(self, amount):
+        print(f"Paid {amount} Using Credit Card")
+
+
+class UPI(Payment):
+    def pay(self, amount):
+        print(f"Paid {amount} Using UPI")
+
+
+# ----- Payment System Example -----
+
+print("\n----- Payment System Example -----")
+
+p1 = CreditCardPayment()
+p1.pay(5000)
+
+p2 = UPI()
+p2.pay(2000)
+
