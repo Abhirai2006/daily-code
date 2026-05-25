@@ -124,3 +124,32 @@ p1.pay(5000)
 p2 = UPI()
 p2.pay(2000)
 
+
+# =========================================
+# Why Use Abstract Classes?
+# =========================================
+
+# Abstract classes help:
+# - Define rules
+# - Enforce structure
+# - Improve consistency
+
+# Every child class must
+# implement abstract methods.
+
+# =========================================
+# Car System Example
+# =========================================
+
+class Car(ABC):
+    @abstractmethod
+    def start_engine(self):
+        pass
+
+    @abstractmethod
+    def accelerate(self):
+        pass
+
+    @abstractmethod
+    def brake(self):
+        pass
