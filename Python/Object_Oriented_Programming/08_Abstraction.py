@@ -64,3 +64,38 @@ send_email()
 
 # Internal implementation is hidden.
 
+
+# =========================================
+# Abstract Classes in Python
+# =========================================
+
+# Python provides abstraction
+# using the abc module.
+
+# abc -> Abstract Base Class
+
+# Important Components:
+# - ABC
+# - abstractmethod
+
+# =========================================
+# Importing ABC Module
+# =========================================
+
+from abc import ABC, abstractmethod
+
+# =========================================
+# Creating an Abstract Class
+# =========================================
+
+class Payment(ABC):
+    @abstractmethod
+    def pay(self, amount):
+        pass
+
+# We cannot create objects
+# of abstract classes.
+
+# Example:
+# p1 = Payment()   //Error//
+
