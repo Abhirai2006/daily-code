@@ -24,3 +24,44 @@
 # Same function or method name
 # can behave differently
 # depending on the object or data.
+
+
+# =========================================
+# Real World Example
+# =========================================
+
+# Payment System:
+# - UPI Payment
+# - Card Payment
+# - Cash Payment
+
+# Same action:
+# pay()
+
+# Different behavior
+# depending on payment type.
+
+
+# =========================================
+# Function Polymorphism
+# =========================================
+
+# Same function works differently
+# for different data types.
+
+
+# ----- Using print() Function -----
+
+print("\n----- Using print() Function -----")
+
+print(10)
+print("Hello World")
+
+
+# ----- Using len() Function -----
+
+print("\n----- Using len() Function -----")
+
+print(len("Python"))
+print(len([1, 2, 3, 4, 5]))
+
