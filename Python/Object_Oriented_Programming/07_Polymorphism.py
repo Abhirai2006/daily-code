@@ -173,3 +173,37 @@ vehicles = [Bike(), Car(), ElectricCar()]
 for v in vehicles:
     v.start()
 
+
+# =========================================
+# Why Polymorphism is Useful
+# =========================================
+
+# Without polymorphism,
+# programs become difficult
+# to manage.
+
+
+# ----- Without Polymorphism -----
+
+print("\n----- Without Polymorphism -----")
+
+vehicle_type = "car"
+if vehicle_type == "car":
+    print("Car Starting...")
+elif vehicle_type == "bike":
+    print("Bike Starting...")
+
+
+# Problems:
+# - Difficult to scale
+# - Hard to maintain
+# - Repetitive code
+
+
+# ----- With Polymorphism -----
+
+print("\n----- With Polymorphism -----")
+
+obj = Car()
+obj.start()
+
