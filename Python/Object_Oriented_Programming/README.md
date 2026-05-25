@@ -20,6 +20,8 @@ Object_Oriented_Programming/
 ├── 03_constructors_init_method.py
 ├── 04_inheritance_basics.py
 ├── 05_types_of_inheritance.py
+├── 06_encapsulation.py
+├── 07_polymorphism.py
 ```
 
 ---
@@ -122,6 +124,45 @@ Object_Oriented_Programming/
 - Method overriding
 - MRO examples
 - Hybrid inheritance structure
+
+---
+
+## 📄 `06_encapsulation.py`
+
+### Concepts Covered:
+
+- Encapsulation
+- Public variables
+- Protected variables
+- Private variables
+- Name mangling
+- Getters and Setters
+
+### Examples Included:
+
+- Bank account system
+- Student marks validation
+- Access modifiers examples
+- Data hiding examples
+
+---
+
+## 📄 `07_polymorphism.py`
+
+### Concepts Covered:
+
+- Polymorphism
+- Function polymorphism
+- Method overriding
+- Runtime polymorphism
+- Same method, different behavior
+
+### Examples Included:
+
+- Payment system
+- Vehicle example
+- Notification system
+- Operator polymorphism
 
 ---
 
