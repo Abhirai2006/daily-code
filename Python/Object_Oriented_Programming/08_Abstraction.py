@@ -190,3 +190,26 @@ car.brake()
 # Polymorphism:
 # Focuses on different behaviors.
 
+
+# =========================================
+# Advantages of Abstraction
+# =========================================
+
+# 1. Hides Complexity
+# 2. Improves Security
+# 3. Better Code Structure
+# 4. Easier Maintenance
+# 5. Improves Scalability
+
+
+# =========================================
+# Important Points About Abstraction
+# =========================================
+
+# 1. Abstract classes cannot create objects
+# 2. Abstract methods must be implemented
+# 3. Uses ABC module
+# 4. Helps define rules for child classes
+# 5. Hides unnecessary implementation details
+
+
