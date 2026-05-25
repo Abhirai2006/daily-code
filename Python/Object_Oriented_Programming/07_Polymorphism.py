@@ -135,3 +135,41 @@ payments = [UPI(), Card(), Cash()]
 for p in payments:
     p.pay()
 
+
+# =========================================
+# Runtime Polymorphism
+# =========================================
+
+# Method behavior changes
+# at runtime depending
+# on the object.
+
+
+class Vehicle:
+    def start(self):
+        print("Vehicle Starting...")
+
+
+class Bike(Vehicle):
+    def start(self):
+        print("Bike Starting...")
+
+
+class Car(Vehicle):
+    def start(self):
+        print("Car Starting...")
+
+
+class ElectricCar(Vehicle):
+    def start(self):
+        print("Electric Car Starting...")
+
+
+# ----- Runtime Polymorphism Example -----
+
+print("\n----- Runtime Polymorphism Example -----")
+
+vehicles = [Bike(), Car(), ElectricCar()]
+for v in vehicles:
+    v.start()
+
