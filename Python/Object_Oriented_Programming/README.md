@@ -22,6 +22,7 @@ Object_Oriented_Programming/
 ├── 05_types_of_inheritance.py
 ├── 06_encapsulation.py
 ├── 07_polymorphism.py
+├── 08_abstraction.py
 ```
 
 ---
@@ -163,6 +164,24 @@ Object_Oriented_Programming/
 - Vehicle example
 - Notification system
 - Operator polymorphism
+
+---
+
+## 📄 `08_abstraction.py`
+
+### Concepts Covered:
+
+- Abstraction
+- Abstract classes
+- Abstract methods
+- ABC module
+- Hiding implementation details
+
+### Examples Included:
+
+- Payment abstraction example
+- Car system example
+- Abstract method implementation
 
 ---
 
