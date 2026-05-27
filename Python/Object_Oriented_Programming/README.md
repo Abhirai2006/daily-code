@@ -23,6 +23,8 @@ Object_Oriented_Programming/
 ├── 06_encapsulation.py
 ├── 07_polymorphism.py
 ├── 08_abstraction.py
+│
+├── OOP_assignment_questions.py
 ```
 
 ---
@@ -182,6 +184,24 @@ Object_Oriented_Programming/
 - Payment abstraction example
 - Car system example
 - Abstract method implementation
+
+---
+
+## 📄 `OOP_assignment_questions.py`
+
+### Contains:
+
+- Beginner-friendly OOP practice questions
+- Concept-based assignments
+- Real-world implementation problems
+
+### Topics Included:
+
+- Abstraction
+- Encapsulation
+- Polymorphism
+- Inheritance
+- Classes & Objects
 
 ---
 
