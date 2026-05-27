@@ -33,7 +33,8 @@ daily-code/
         ├── 07_Polymorphism.py
         ├── 08_abstraction.py
         │
-        └── Assignment_Questions.py
+        ├── Assignment_Questions.py
+        └── Assignments_Answers.py
 ```
 
 ---
@@ -68,6 +69,8 @@ daily-code/
 | [07_Polymorphism.py](https://github.com/Abhirai2006/daily-code/blob/main/Python/Object_Oriented_Programming/07_Polymorphism.py) | polymorphism, function & operator polymorphism, method overriding, runtime polymorphism |
 | [08_abstraction.py](https://github.com/Abhirai2006/daily-code/blob/main/Python/Object_Oriented_Programming/08_abstraction.py) | abstraction, abstract classes & methods, ABC module, hiding internal implementation |
 | [Assignment_Questions.py](https://github.com/Abhirai2006/daily-code/blob/main/Python/Object_Oriented_Programming/Assignment_Questions.py) | classes, constructors, inheritance, encapsulation, polymorphism, abstraction |
+| [Assignments_Answers.py](https://github.com/Abhirai2006/daily-code/blob/main/Python/Object_Oriented_Programming/Assignments_Answers.py) | OOP assignment solutions — abstract classes, encapsulation, inheritance, polymorphism, class & instance variables |
+
 
 ---
 
