@@ -266,3 +266,32 @@ s1 = Square(5)
 print("Circle Area :", c1.area())
 print("Square Area :", s1.area())
 
+
+# =========================================
+# Answer 08
+# Private Variable - Age
+# =========================================
+
+class Person:
+    def __init__(self, age):
+        self.__age = age
+
+    def set_age(self, age):
+        if age > 0:
+            self.__age = age
+        else:
+            print("Invalid Age")
+
+    def get_age(self):
+        return self.__age
+
+
+# ----- Person Age Example -----
+
+print("\n----- Person Age Example -----")
+
+p1 = Person(20)
+print("Initial Age :", p1.get_age())
+p1.set_age(25)
+print("Updated Age :", p1.get_age())
+
