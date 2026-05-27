@@ -92,3 +92,63 @@ print("Balance After Deposit :", acc.get_balance())
 acc.withdraw(300)
 print("Balance After Withdrawal :", acc.get_balance())
 
+
+# =========================================
+# Answer 03
+# Rectangle Area & Perimeter
+# =========================================
+
+class Rectangle:
+    def __init__(self, length, breadth):
+        self.length = length
+        self.breadth = breadth
+
+    def area(self):
+        return self.length * self.breadth
+
+    def perimeter(self):
+        return 2 * (self.length + self.breadth)
+
+
+# ----- Rectangle Example -----
+
+print("\n----- Rectangle Example -----")
+
+r1 = Rectangle(10, 5)
+print("Area :", r1.area())
+print("Perimeter :", r1.perimeter())
+
+
+# =========================================
+# Answer 04
+# Employee Salary Category
+# =========================================
+
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def category(self):
+        if self.salary > 50000:
+            return "High"
+        elif 30000 <= self.salary <= 50000:
+            return "Medium"
+        else:
+            return "Low"
+
+
+# ----- Employee Category Example -----
+
+print("\n----- Employee Category Example -----")
+
+employees = [
+    Employee("Rahul", 60000),
+    Employee("Anjali", 45000),
+    Employee("Kiran", 20000)
+
+]
+
+for emp in employees:
+    print(emp.name, "->", emp.category())
+
