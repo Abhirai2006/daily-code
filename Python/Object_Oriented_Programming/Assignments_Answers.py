@@ -49,3 +49,46 @@ remote = TVRemote()
 remote.power_on()
 remote.power_off()
 
+
+# =========================================
+# Answer 02
+# Bank Account System
+# =========================================
+
+class BankAccount:
+    def __init__(self, holder, balance):
+        self.__account_holder = holder
+        self.__balance = balance
+
+
+    def deposit(self, amount):
+        if amount > 0:
+            self.__balance += amount
+            print(f"Successfully Deposited : Rs {amount}")
+        else:
+            print("Invalid Deposit Amount")
+
+
+    def withdraw(self, amount):
+        if 0 < amount <= self.__balance:
+            self.__balance -= amount
+            print(f"Successfully Withdrawn : Rs {amount}")
+        else:
+            print("Insufficient Balance")
+
+
+    def get_balance(self):
+        return self.__balance
+
+
+# ----- Bank Account Example -----
+
+print("\n----- Bank Account Example -----")
+
+acc = BankAccount("Rahul", 1000)
+print("Initial Balance :", acc.get_balance())
+acc.deposit(500)
+print("Balance After Deposit :", acc.get_balance())
+acc.withdraw(300)
+print("Balance After Withdrawal :", acc.get_balance())
+
