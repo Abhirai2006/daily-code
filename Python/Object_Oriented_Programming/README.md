@@ -25,6 +25,7 @@ Object_Oriented_Programming/
 ├── 08_abstraction.py
 │
 ├── OOP_assignment_questions.py
+└── OOP_assignment_answers.py
 ```
 
 ---
@@ -202,6 +203,26 @@ Object_Oriented_Programming/
 - Polymorphism
 - Inheritance
 - Classes & Objects
+
+---
+
+## 📄 `OOP_assignment_answers.py`
+
+### Contains:
+
+- Detailed solutions for all assignments
+- Step-by-step implementations
+- Proper comments and explanations
+
+### Programs Included:
+
+- Remote Control System
+- Bank Account System
+- Rectangle Calculator
+- Employee Salary Category
+- Library Management System
+- Shopping Cart System
+- Shape Area Programs
 
 ---
 
