@@ -295,3 +295,51 @@ print("Initial Age :", p1.get_age())
 p1.set_age(25)
 print("Updated Age :", p1.get_age())
 
+
+# =========================================
+# Answer 09
+# Shopping Cart System
+# =========================================
+
+class Product:
+    def __init__(self, name, price):
+        self.name = name
+        self.price = price
+
+
+class Cart:
+    def __init__(self):
+        self.items = []
+
+    def add_product(self, product):
+        self.items.append(product)
+        print(f"{product.name} Added To Cart")
+
+
+    def remove_product(self, name):
+        self.items = [
+            item for item in self.items
+            if item.name != name
+        ]
+        print(f"{name} Removed From Cart")
+
+    def total_price(self):
+        return sum(item.price for item in self.items)
+
+
+# ----- Shopping Cart Example -----
+
+print("\n----- Shopping Cart Example -----")
+
+p1 = Product("Laptop", 50000)
+p2 = Product("Phone", 20000)
+
+cart = Cart()
+
+cart.add_product(p1)
+cart.add_product(p2)
+
+print("Total Price :", cart.total_price())
+cart.remove_product("Phone")
+print("Updated Total Price :", cart.total_price())
+
