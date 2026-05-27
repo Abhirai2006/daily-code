@@ -204,3 +204,65 @@ lib.add_book(b2)
 lib.issue_book("Java")
 lib.return_book("Java")
 
+
+# =========================================
+# Answer 06
+# Class Variables & Instance Variables
+# =========================================
+
+class Employee:
+    company = "ABC Technologies"
+
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+
+# ----- Employee Details Example -----
+
+print("\n----- Employee Details Example -----")
+
+e1 = Employee("Rahul", 30000)
+e2 = Employee("Anjali", 50000)
+
+print(e1.name, e1.salary, e1.company)
+print(e2.name, e2.salary, e2.company)
+
+
+# =========================================
+# Answer 07
+# Shape Area Using Polymorphism
+# =========================================
+
+class Shape:
+    def area(self):
+        return 0
+
+
+class Circle(Shape):
+    def __init__(self, radius):
+        self.radius = radius
+
+
+    def area(self):
+        return 3.14 * self.radius * self.radius
+
+
+class Square(Shape):
+    def __init__(self, side):
+        self.side = side
+
+    def area(self):
+        return self.side * self.side
+
+
+# ----- Shape Area Example -----
+
+print("\n----- Shape Area Example -----")
+
+c1 = Circle(7)
+s1 = Square(5)
+
+print("Circle Area :", c1.area())
+print("Square Area :", s1.area())
+
